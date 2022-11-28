@@ -1,0 +1,62 @@
+body {
+  font-family: 'Alkalami', serif;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 2rem);
+}
+
+.rigth
+{
+  text-align: right;
+  vertical-align: middle;
+}
+
+.neon-button-cyan {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: cyan;
+  font-family: "Poppins", sans-serif;
+  border: 0.1rem solid cyan;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  transition: 333ms ease-out;
+  background-color: $backgroundColor01;
+
+  &:hover {
+    background-color: cyan;
+    color: $backgroundColor01;
+    box-shadow: 0 0 0.7rem cyan,
+      0 0 2.8rem cyan,
+      0 0 5.6rem cyan;
+  }
+}
+
+.neon-button-red {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(114, 3, 3);
+  font-family: "Poppins", sans-serif;
+  border: 0.1rem solid rgb(114, 3, 3);
+  ;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  transition: 333ms ease-out;
+  background-color: $foreColor03;
+
+  &:hover {
+    background-color: rgb(114, 3, 3);
+    color: $foreColor03;
+    box-shadow: 0 0 0.7rem rgb(114, 3, 3),
+      0 0 2.8rem rgb(114, 3, 3),
+      0 0 5.6rem rgb(114, 3, 3);
+  }
+}
+

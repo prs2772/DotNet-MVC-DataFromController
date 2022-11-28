@@ -1,0 +1,38 @@
+@model List<ProductoViewModel>
+@{
+    ViewData["Title"] = "Lista de productos";
+}
+
+<div class="text-center div-style-004 div-margin-001 div-padding-001">
+  <h2>Cat&aacute;logo</h2>
+  <div></div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+        <th>ID</th>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Borrar</th>
+        </tr>
+      </thead>
+      <tbody>
+      @foreach (ProductoViewModel producto in Model)
+      {
+        <tr>
+          <td>@producto.Id</td>
+          <td>@producto.Nombre</td>
+          <td>@producto.Precio</td>
+          <td><a asp-action="StoreSummary" asp-route-idToRemove="@producto.Id" /> X </td>
+        </tr>
+      }
+      </tbody>
+      <tfoot>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tfoot>
+    </table>
+  </div>
+</div>

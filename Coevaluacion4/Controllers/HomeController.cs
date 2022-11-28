@@ -18,6 +18,17 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult StoreAdd(int? id)
+    {
+        return View(Datos.ObtenProducto(id));
+    }
+
+    public IActionResult StoreSummary(int? idToRemove)
+    {
+        Datos.DeleteaProducto(idToRemove);
+        return View(Datos.Productos());
+    }
+
     public IActionResult Privacy()
     {
         return View();

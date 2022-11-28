@@ -1,0 +1,96 @@
+//Colors:
+//1) https://coolors.co/114b5f-456990-e4fde1-f45b69-6b2737
+//2) https://coolors.co/292e1e-7f0799-9649cb-afbbf2-d3fff3
+//3) https://coolors.co/ee4266-2a1e5c-0a0f0d-c4cbca-3cbbb1
+//4) https://coolors.co/292e1e-a0eec0-8ae9c1-86cd82-72a276
+//5) https://coolors.co/7a5c61-f7accf-e8f0ff-6874e8-392759
+//6) https://coolors.co/da2c38-e2fcef-5c164e-402039-170f11
+
+//Fonts: https://fonts.google.com/specimen/Alkalami
+
+$semiBlack: rgb(31, 30, 30);
+$pinkFonts: rgb(255, 209, 253);
+$backgroundGeneric: #3e004b;
+
+$backgroundColor01: #114b5f;
+$panelsColor01: #456990;
+$foreColor01: #e4fde1;
+$contrastColor01: #f45b69;
+$canvasColor01: #6b2737;
+
+$backgroundColor02: #7f0799;
+$panelsColor02: #292e1e;
+$foreColor02: #d3fff3;
+$contrastColor02: #9649cb;
+$canvasColor02: #afbbf2;
+
+$backgroundColor03: #0a0f0d;
+$panelsColor03: #2a1e5c;
+$foreColor03: #c4cbca;
+$contrastColor03: #ee4266;
+$canvasColor03: #3cbbb1;
+
+$backgroundColor04: #72a276;
+$panelsColor04: #86cd82;
+$foreColor04: #292e1e;
+$contrastColor04: #8ae9c1;
+$canvasColor04: #a0eec0;
+
+$backgroundColor05: #392759;
+$panelsColor05: #7a5c61;
+$foreColor05: #e8f0ff;
+$contrastColor05: #6874e8;
+$canvasColor05: #f7accf;
+
+//Reset
+html {
+	font-size: 8px; //For RWD
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+//RWD
+
+@media screen and (min-width: 480px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 660px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	html {
+		font-size: 17px;
+	}
+}

@@ -1,0 +1,25 @@
+@{
+  ViewData["Title"] = "Datos del producto";
+  List<ProductoViewModel> productos = Datos.Productos();
+  //Datos.Productos().Add(new ProductoViewModel(1, "esewrfgfgerwwdefd", "fdsdff", 222, 22222));
+}
+
+<div class="text-center div-style-004 div-margin-001 div-padding-001">
+  <h2>Nuevo producto</h2>
+  <form>
+    <div>
+      <label>ID: </label>
+      <input type="number" required/>
+    </div>
+    <div>
+      <label>Producto: </label>
+      <input type="text" required/>
+    </div>
+    <div>
+      <label>Precio: </label>
+      <input type="text" required/>
+    </div>
+    
+  </form>
+  <p><a asp-action="StoreSummary" />Regresar a los productos</p>
+</div>

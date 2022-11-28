@@ -1,0 +1,74 @@
+.block
+{
+    display: block;
+}
+.block-line
+{
+    display: inline-block;
+}
+.wrapping
+{
+    background-color: $backgroundColor01;
+    color: $foreColor01;
+}
+.hidden
+{
+    display: none;
+}
+.div-margin-001
+{
+    margin: 3rem;
+}
+.div-padding-001
+{
+    padding: 2rem;
+}
+.div-style-001{
+    background-color: $panelsColor02;
+    color: $foreColor01;
+}
+.div-style-002{
+    background-color: $panelsColor01;
+    color: $foreColor01;
+    border-radius: 5px;
+}
+.div-style-003{
+    background-color: $backgroundColor01;
+    color: $foreColor01;
+}
+.div-style-004{
+    background-color: $backgroundColor05;
+    color: $foreColor05;
+}
+.div-content
+{
+    padding: 2rem;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: rgb(13, 252, 13);
+}
+a:hover {
+    color: rgb(79, 173, 255);
+}
+a:active {
+    color: white;
+}
+.title-001
+{
+    text-align: center;
+    margin: auto;
+    width: 30rem;
+    font-size: 4rem;
+    color: $contrastColor04;
+    margin-bottom: 2rem;
+}
+.medium-image-001
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 7%;
+    margin: 4rem;
+}

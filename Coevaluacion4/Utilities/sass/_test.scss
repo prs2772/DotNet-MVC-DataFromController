@@ -1,0 +1,93 @@
+.extra-space {
+  margin-bottom: 1.3rem;
+}
+.extra-space-001 {
+  margin-top: 1.3rem;
+}
+.div-pregunta {
+  display: none;
+  margin: 3rem 3rem 4rem 4rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-align: left;
+  background-color: #5c164e;
+  color: $foreColor05;
+  p {
+    margin-top: 0.4rem;
+  }
+  .title {
+    font-size: 1.4rem;
+    color: #e2fcef;
+    font-weight: bold;
+  }
+  .opcion {
+    display: block;
+    margin-bottom: 0.4rem;
+    background-color: #402039;
+    border-radius: 2rem;
+    padding: 0.2rem;
+  }
+  .opcion-correcta {
+    display: block;
+    margin-bottom: 0.4rem;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    background-color: rgb(43, 115, 45);
+  }
+  .opcion-incorrecta {
+    display: block;
+    margin-bottom: 0.4rem;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    background-color: #da2c38;
+  }
+  .opcion:hover {
+    background-color: #851173;
+  }
+}
+.resultados-actuales {
+  width: 70%;
+  margin: auto;
+  padding-left: 2rem;
+  display: block;
+  border-radius: 2rem;
+  padding: 0.2rem;
+  text-align: center;
+  background-color: #730d64;
+}
+.resultados-finales {
+  border-radius: 2rem;
+  margin: 0.4rem 1rem 0.2rem 0.2rem;
+  padding-top: 0;
+  padding: 0.4rem;
+  background-color: $foreColor04;
+  color: $canvasColor04;
+  text-align: left;
+  font-size: 1.2em;
+}
+.resutados-correctos-header {
+  display: block;
+  margin-bottom: 0.2rem;
+  border-radius: 1.5rem;
+  padding: 0.2rem;
+  background-color: rgb(43, 115, 45);
+  color: $contrastColor04;
+  text-align: center;
+}
+.resutados-incorrectos-header {
+  display: block;
+  margin-bottom: 0.4rem;
+  border-radius: 1.5rem;
+  padding: 0.2rem;
+  background-color: #72050c;
+  color: $contrastColor04;
+  text-align: center;
+}
+.mini-panel {
+  display: block;
+  margin-bottom: 0.2rem;
+  border-radius: 1.5rem;
+  padding: 0.2rem;
+  background-color: $semiBlack;
+  text-align: center;
+}
