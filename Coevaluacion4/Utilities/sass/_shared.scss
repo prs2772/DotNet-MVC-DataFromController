@@ -45,7 +45,7 @@
     padding: 2rem;
 }
 a:link {
-    color: white;
+    color: rgb(13, 252, 13);
 }
 a:visited {
     color: rgb(13, 252, 13);
@@ -56,6 +56,20 @@ a:hover {
 a:active {
     color: white;
 }
+
+.a:link {
+    color: black;
+}
+.a:visited {
+    color: black;
+}
+.a:hover {
+    color: white;
+}
+.a:active {
+    color: black;
+}
+
 .title-001
 {
     text-align: center;

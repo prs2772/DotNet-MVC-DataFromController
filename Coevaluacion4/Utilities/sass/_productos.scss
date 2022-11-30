@@ -1,0 +1,29 @@
+.seccion-tabla {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+td,th{
+  padding:0.2rem 0.6rem;
+}
+.tabla-productos{
+  font-size: 1.2rem;
+  color: $panelsColor01;
+  th{
+    background-color: rgb(3, 111, 138);
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #eee;
+  }
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+}
+.title-001{
+  font-size: 3rem;
+  color: $canvasColor05;
+}
+.datos-in{
+  width: 6rem;
+  background-color: $backgroundColor01;
+}

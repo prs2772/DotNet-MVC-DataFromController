@@ -78,7 +78,7 @@ img {
   padding: 2rem; }
 
 a:link {
-  color: white; }
+  color: #0dfc0d; }
 
 a:visited {
   color: #0dfc0d; }
@@ -88,6 +88,18 @@ a:hover {
 
 a:active {
   color: white; }
+
+.a:link {
+  color: black; }
+
+.a:visited {
+  color: black; }
+
+.a:hover {
+  color: white; }
+
+.a:active {
+  color: black; }
 
 .title-001 {
   text-align: center;
@@ -112,7 +124,12 @@ body {
 
 .rigth {
   text-align: right;
-  vertical-align: middle; }
+  margin-left: auto; }
+
+.center {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto; }
 
 .neon-button-cyan {
   display: inline-block;
@@ -138,101 +155,40 @@ body {
   margin-right: 1rem;
   font-size: 1.2rem;
   text-decoration: none;
-  color: #720303;
+  color: #fffefe;
   font-family: "Poppins", sans-serif;
-  border: 0.1rem solid #720303;
+  border: 0.1rem solid #bca4c2;
   padding: 0.3rem 1rem;
   border-radius: 0.5rem;
   transition: 333ms ease-out;
-  background-color: #c4cbca; }
+  background-color: #500263; }
   .neon-button-red:hover {
     background-color: #720303;
     color: #c4cbca;
     box-shadow: 0 0 0.7rem #720303, 0 0 2.8rem #720303, 0 0 5.6rem #720303; }
 
-.extra-space {
-  margin-bottom: 1.3rem; }
+.seccion-tabla {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
-.extra-space-001 {
-  margin-top: 1.3rem; }
+td, th {
+  padding: 0.2rem 0.6rem; }
 
-.div-pregunta {
-  display: none;
-  margin: 3rem 3rem 4rem 4rem;
-  padding: 1rem;
-  border-radius: 2rem;
-  text-align: left;
-  background-color: #5c164e;
-  color: #e8f0ff; }
-  .div-pregunta p {
-    margin-top: 0.4rem; }
-  .div-pregunta .title {
-    font-size: 1.4rem;
-    color: #e2fcef;
-    font-weight: bold; }
-  .div-pregunta .opcion {
-    display: block;
-    margin-bottom: 0.4rem;
-    background-color: #402039;
-    border-radius: 2rem;
-    padding: 0.2rem; }
-  .div-pregunta .opcion-correcta {
-    display: block;
-    margin-bottom: 0.4rem;
-    border-radius: 2rem;
-    padding: 0.2rem;
-    background-color: #2b732d; }
-  .div-pregunta .opcion-incorrecta {
-    display: block;
-    margin-bottom: 0.4rem;
-    border-radius: 2rem;
-    padding: 0.2rem;
-    background-color: #da2c38; }
-  .div-pregunta .opcion:hover {
-    background-color: #851173; }
+.tabla-productos {
+  font-size: 1.2rem;
+  color: #456990; }
+  .tabla-productos th {
+    background-color: #036f8a;
+    color: white; }
+  .tabla-productos tr:nth-child(even) {
+    background-color: #eee; }
+  .tabla-productos tr:nth-child(odd) {
+    background-color: #fff; }
 
-.resultados-actuales {
-  width: 70%;
-  margin: auto;
-  padding-left: 2rem;
-  display: block;
-  border-radius: 2rem;
-  padding: 0.2rem;
-  text-align: center;
-  background-color: #730d64; }
+.title-001 {
+  font-size: 3rem;
+  color: #f7accf; }
 
-.resultados-finales {
-  border-radius: 2rem;
-  margin: 0.4rem 1rem 0.2rem 0.2rem;
-  padding-top: 0;
-  padding: 0.4rem;
-  background-color: #292e1e;
-  color: #a0eec0;
-  text-align: left;
-  font-size: 1.2em; }
-
-.resutados-correctos-header {
-  display: block;
-  margin-bottom: 0.2rem;
-  border-radius: 1.5rem;
-  padding: 0.2rem;
-  background-color: #2b732d;
-  color: #8ae9c1;
-  text-align: center; }
-
-.resutados-incorrectos-header {
-  display: block;
-  margin-bottom: 0.4rem;
-  border-radius: 1.5rem;
-  padding: 0.2rem;
-  background-color: #72050c;
-  color: #8ae9c1;
-  text-align: center; }
-
-.mini-panel {
-  display: block;
-  margin-bottom: 0.2rem;
-  border-radius: 1.5rem;
-  padding: 0.2rem;
-  background-color: #1f1e1e;
-  text-align: center; }
+.datos-in {
+  width: 6rem;
+  background-color: #114b5f; }

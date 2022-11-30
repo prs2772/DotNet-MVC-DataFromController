@@ -1,25 +1,30 @@
 @{
   ViewData["Title"] = "Datos del producto";
+  ViewData["PostAdding"] = string.Empty;
   List<ProductoViewModel> productos = Datos.Productos();
   //Datos.Productos().Add(new ProductoViewModel(1, "esewrfgfgerwwdefd", "fdsdff", 222, 22222));
 }
 
 <div class="text-center div-style-004 div-margin-001 div-padding-001">
-  <h2>Nuevo producto</h2>
-  <form>
+  <h2 class="title-001">P&aacute;gina 2 - Nuevo producto</h2>
+  <div class="nuevo-producto">
+  <form method="POST">
     <div>
-      <label>ID: </label>
-      <input type="number" required/>
+      <label class="datos-in">ID: </label>
+      <input type="number" id="idNuevo" name="idNuevo" required/>
     </div>
     <div>
-      <label>Producto: </label>
-      <input type="text" required/>
+      <label class="datos-in">Producto: </label>
+      <input type="text" id="productoNuevo" name="productoNuevo" maxlength="30" required/>
     </div>
     <div>
-      <label>Precio: </label>
-      <input type="text" required/>
+      <label class="datos-in">Precio: $</label>
+      <input type="number" id="precioNuevo" name="precioNuevo" step="0.01" required/>
     </div>
-    
+    <p>&nbsp;</p>
+    <input type="submit" value="Aceptar" class="neon-button-cyan" />
+    <a asp-action="StoreSummary"><div class="neon-button-red">Cancelar</div></a>
+    <p>&nbsp;</p>
   </form>
-  <p><a asp-action="StoreSummary" />Regresar a los productos</p>
+  </div>
 </div>
